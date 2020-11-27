@@ -1,0 +1,675 @@
+/* General Settings */
+
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+/* Box Settings */
+
+.box-container {
+    max-width: 992px;
+    margin: auto;
+}
+
+.clearfix {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.img-box {
+    overflow: hidden;
+}
+
+.img-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+
+
+/* Button Settings */
+
+.main-btn {
+    display: inline-block;
+    padding: 20px 15px;
+    text-align: center;
+    text-decoration: none;
+    min-width: 250px;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    background-color: transparent;
+    font-size: 16px;
+    color: #999;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.arrow-btn {
+    min-width: 150px;
+    padding: 20px;
+    line-height: 44px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    color: #00aaff;
+    font: 18px;
+    font-weight: 700;
+    text-transform: capitalize;
+    text-decoration: none;
+    text-align: center;
+}
+
+.arrow-btn i {
+    font-size: 22px;
+    margin-left: 10px;
+    color: orange;
+}
+
+.bg-blue-btn {
+    background: #00aaff;
+    color: #fff;
+    box-shadow: 1px 1px 10px #00aaff96;
+    transition: all .3s ease;
+}
+
+.bg-blue-btn:hover {
+    box-shadow: 0 5px 15px #00aaff96;
+}
+
+.bg-white-btn {
+    background-color: #fff;
+}
+
+.bg-white-btn:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Background & Color Settings */
+
+.bg-blue {
+    background: #00aaff;
+}
+
+.bg-alice-blue {
+    background: #f7f9fa;
+}
+
+.bg-arsenic {
+    background: #3d474d;
+}
+
+
+/* Header Settings*/
+
+.navbar {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 80px;
+    z-index: 999;
+    background: #fff;
+}
+
+.fixed-navbar {
+    height: 80px;
+}
+
+.logo {
+    width: 110px;
+    height: 46px;
+    overflow: hidden;
+    display: inline-block;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.nav {
+    float: right;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    padding-right: 40px;
+}
+
+li a {
+    font-weight: 600;
+    text-decoration: none;
+    color: #3d474d;
+}
+
+a#login {
+    color: #00aaff;
+}
+
+
+/* Manage Section Settings */
+
+.manage {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.manage-top h1 {
+    color: #3d474d;
+    font-size: 60px;
+    margin-bottom: 0;
+}
+
+.manage-top span {
+    display: inline-block;
+    color: #8a9499;
+    font-size: 60px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.manage-form input {
+    padding: 17px;
+    min-width: 260px;
+    border-radius: 10px;
+    border: 1px solid rgb(209, 209, 209);
+    font-size: 19px;
+    color: #999;
+    font-weight: 600;
+    margin-right: 10px;
+}
+
+.manage-form input::placeholder {
+    color: rgb(196, 192, 192);
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.manage-form input:focus {
+    border-radius: 10px;
+    border: 1px solid#00aaff;
+    outline: none;
+}
+
+.round-img {
+    height: 500px;
+    overflow: hidden;
+    margin: 100px auto 0;
+}
+
+.round-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+
+
+/* .main-img {
+    width: 1800px;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+    bottom: 550px;
+    z-index: 2;
+    background: red;
+}
+
+.manage-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+} */
+
+.manage-content {
+    text-align: center;
+    color: #fff;
+    max-width: 970px;
+    margin: auto;
+    padding: 80px;
+}
+
+.manage-content h2 {
+    font-size: 34px;
+    font-weight: 300;
+    margin-top: 0;
+}
+
+.manage-content p {
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: center;
+}
+
+
+/* Services Section  */
+
+#services {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.service-item {
+    text-align: center;
+    float: left;
+    padding: 10px 30px;
+}
+
+.service-img {
+    width: 65px;
+    height: 50px;
+    margin: auto;
+}
+
+.service-item {
+    text-align: center;
+}
+
+.service-item h3 {
+    font-size: 27px;
+    font-weight: 700;
+    color: #3d474d;
+    margin-bottom: 0;
+}
+
+.service-item p {
+    font-size: 21px;
+    font-weight: 300;
+    margin-top: 0;
+}
+
+
+/* Online Task Settings */
+
+.task-top {
+    max-width: 900px;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.online-task h2 {
+    color: #3d474d;
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 40px;
+    text-align: center;
+}
+
+.online-task h3 {
+    color: #3d474d;
+    font-size: 34px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.task-item {
+    width: calc((100% / 2) - 30px);
+    float: left;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 40px auto;
+}
+
+.task-box {
+    max-width: 380px;
+    text-align: center;
+    margin: auto;
+}
+
+.task-img {
+    width: 90px;
+    height: 90px;
+    margin: auto;
+}
+
+.task-content {
+    color: #3d474d;
+}
+
+.bg-float-task {
+    width: 100%;
+    height: 1100px;
+    background-color: #f7f9fa;
+}
+
+
+/* Business Section Settings */
+
+.business-box {
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.business-img {
+    width: 100px;
+    height: 100px;
+    margin: auto
+}
+
+.business-content {
+    color: #fff;
+}
+
+.business-content h2 {
+    font-size: 34px;
+}
+
+.business-content p {
+    font-size: 17px;
+    line-height: 24px;
+    margin-bottom: 50px;
+}
+
+
+/* Workflow Settings */
+
+.workflow-items {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.workflow-item {
+    width: calc(100% / 2) - 100px;
+    float: left;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.workflow-img {
+    width: 400px;
+}
+
+.workflow-content {
+    max-width: 320px;
+    color: #3d474d;
+}
+
+.workflow-content h2 {
+    font-size: 34px;
+}
+
+.workflow-content p {
+    font-size: 17px;
+    line-height: 24px;
+}
+
+.bg-float-workflow {
+    width: 100%;
+    height: 250px;
+    background-color: #f7f9fa;
+}
+
+
+/* Dirching Settings */
+
+#Ditching p {
+    margin-bottom: 40px
+}
+
+#Ditching .arrow-btn {
+    margin-bottom: 50px;
+}
+
+#Ditching .bg-float-workflow {
+    height: 350px;
+}
+
+
+/* Studies Section */
+
+#Studies .task-top {
+    max-width: none;
+}
+
+.studies-item {
+    width: calc((100% / 3) - 120px);
+    text-align: center;
+    padding: 40px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    float: left;
+}
+
+.studies-img {
+    width: 250px;
+    height: 100px;
+}
+
+.studies-content h2 {
+    color: #3d474d;
+    font-size: 21px;
+}
+
+.studies-content h3 {
+    color: #8A9499;
+    font-weight: 700;
+}
+
+.studies-content p {
+    font-size: 17px;
+    font-weight: 300;
+    margin-bottom: 50px;
+}
+
+.studie-btn {
+    padding: 20px 20px;
+    color: #00aaff;
+}
+
+.studie-btn i {
+    color: orange;
+    margin-left: 10px;
+}
+
+.btn-area {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+
+/* Great Settings */
+
+#Great .task-top p {
+    text-align: center;
+    color: #8A9499;
+    font-size: 21px;
+    line-height: 30px;
+}
+
+.great-img {
+    width: 450px;
+    height: 180px;
+    margin: auto;
+}
+
+
+/* MeisterBundle Settings */
+
+#MeisterBundle .business-img {
+    width: 160px;
+    height: 80px;
+}
+
+
+/* What Settings */
+
+.what-item {
+    width: calc((100% / 2) - 82px);
+    padding: 80px 40px;
+    text-align: center;
+    float: left;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.what-img {
+    width: 130px;
+    height: 90px;
+    margin: auto;
+}
+
+.what-content h2 {
+    font-size: 34px;
+    color: #3d474d;
+}
+
+.what-content p {
+    font-size: 17px;
+    line-height: 24px;
+    color: #3d474d;
+}
+
+
+/* HowDo Section Settings */
+
+#HowDo {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.how-top {
+    padding-right: 60px;
+}
+
+.how-top h2 {
+    font-size: 34px;
+    color: #3d474d;
+    margin-bottom: 0;
+}
+
+.how-top h3 {
+    font-size: 34px;
+    color: #3d474d;
+    font-weight: 400;
+    margin-top: 5px;
+}
+
+.how-body ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.how-body li {
+    width: 100%;
+    padding: 10px 0;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.how-body i {
+    color: #00aaff;
+    padding-right: 20px;
+}
+
+.how-foot p {
+    font-weight: 500;
+    font-size: 17px;
+    padding: 20px 0 40px;
+}
+
+
+/* Footer */
+
+footer {
+    background: #3d474d;
+    height: 350px;
+    padding-top: 50px;
+}
+
+.footer-item {
+    width: calc((100% / 5) - 20px);
+    float: left;
+    background-color: #3d474d;
+    margin-right: 20px;
+}
+
+.foot-logo {
+    width: 86px;
+    height: 36px;
+    color: #fff;
+}
+
+.footer-item span {
+    font-weight: 600;
+    color: #fff;
+}
+
+.footer-item a {
+    color: #8A9499;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+hr {
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+    border-bottom: none;
+}
+
+.sub-footer {
+    padding-top: 20px;
+}
+
+.sub-item {
+    float: left;
+}
+
+.sub-item span {
+    font-size: 13px;
+    color: #8A9499;
+    margin-right: 10px;
+    font-weight: 700;
+}
+
+.sub-items a {
+    font-size: 13px;
+    color: #8a9499;
+    margin-right: 10px;
+    text-decoration: underline;
+}
+
+.sub-items .select {
+    display: inline-block;
+    background: #585d61;
+}
+
+select {
+    background: transparent;
+    border: none;
+    padding: 2px 0;
+    outline: none;
+}
+
+.sub-social a {
+    display: inline-block;
+    padding-right: 20px;
+    float: left;
+}
+
+.sub-social i {
+    font-size: 26px;
+    color: #fff;
+    position: relative;
+    top: 8px;
+}
+
+#microsoft {
+    display: inline-block;
+    width: 110px;
+    height: 40px;
+}
